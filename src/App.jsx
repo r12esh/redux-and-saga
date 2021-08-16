@@ -53,7 +53,7 @@ function App() {
                 Stocks UP babe
               </Grid.Column>
               <Grid.Column width={3}>
-                $2.8 B
+                $2.4 B
               </Grid.Column>
               <Grid.Column width={3}>
                 <Icon name="edit" bordered />
