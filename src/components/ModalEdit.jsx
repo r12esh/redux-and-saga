@@ -1,28 +1,33 @@
 import React from 'react'
-import { Modal,Button } from 'semantic-ui-react'
+import { useDispatch } from 'react-redux'
+import { Modal, Button } from 'semantic-ui-react'
+import { closeEditModal } from '../actions/modas.actions';
+import useEntryDetails from '../hooks/useEntryDetails';
 import EntryForm from './EntryForm'
 
-function ModalEdit({isOpen, setIsOpen,description,setDescription,value, setValue,isExpense,setIsExpense}) {
+function ModalEdit({ isOpen, id, description, value, isExpense }) {
+  const dispatch = useDispatch();
+  const entryUpdate = useEntryDetails(description, value, isExpense);
   return (
     <Modal open={isOpen} >
       <Modal.Header>
         Edit Entry
       </Modal.Header>
       <Modal.Content>
-        <EntryForm 
-        description={description}
-        value={value}
-        isExpense={isExpense}
-        setIsExpense={setIsExpense}
-        setValue={setValue}
-        setDescription={setDescription}
+        <EntryForm
+          description={entryUpdate.description}
+          value={entryUpdate.value}
+          isExpense={entryUpdate.isExpense}
+          setIsExpense={entryUpdate.setIsExpense}
+          setValue={entryUpdate.setValue}
+          setDescription={entryUpdate.setDescription}
         />
       </Modal.Content>
       <Modal.Actions>
-        <Button onClick={()=>setIsOpen(false)} >
+        <Button onClick={() => dispatch(closeEditModal())} >
           Close
         </Button>
-        <Button onClick={()=>setIsOpen(false)} primary >
+        <Button onClick={() => entryUpdate.updateEntry(id)} primary >
           Ok
         </Button>
       </Modal.Actions>

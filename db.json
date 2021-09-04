@@ -1,0 +1,42 @@
+{
+  "entries": [
+    {
+      "id": "1",
+      "description": "Electricity Bill"
+    },
+    {
+      "id": "2",
+      "description": "2nd ENTRY H BHAI BOLE TO 1st Index"
+    },
+    {
+      "id": "3",
+      "description": "Monthly goods"
+    },
+    {
+      "id": "4",
+      "description": "Bought Stocks"
+    }
+  ],
+  "values": [
+    {
+      "id": "1",
+      "value": "2400",
+      "isExpense": true
+    },
+    {
+      "id": "2",
+      "value": "90000",
+      "isExpense": false
+    },
+    {
+      "id": "3",
+      "value": "30",
+      "isExpense": true
+    },
+    {
+      "id": "4",
+      "value": "20",
+      "isExpense": true
+    }
+  ]
+}

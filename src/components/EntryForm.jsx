@@ -9,7 +9,7 @@ function EntryForm({description, value, isExpense,setIsExpense,setDescription,se
           label="Description "
           width={12}
           icon="tags"
-          placeholder="Enter bitch"
+          placeholder="Enter description"
           value={description}
           onChange={(e)=>setDescription(e.target.value)}
         >
