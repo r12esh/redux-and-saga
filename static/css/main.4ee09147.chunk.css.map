@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,EACE,QAAW,CACX,SACF,CAEA,KACE,uDAEF","file":"main.4ee09147.chunk.css","sourcesContent":["*{\n  margin: 0px;\n  padding: 0px;\n}\n\n.App{\n  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n  /* color: rgba(0, 0, 0, 0.288); */\n}\n"]}

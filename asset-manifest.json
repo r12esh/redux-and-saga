@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/redux-and-saga/static/css/main.4ee09147.chunk.css",
+    "main.js": "/redux-and-saga/static/js/main.bcde86a8.chunk.js",
+    "main.js.map": "/redux-and-saga/static/js/main.bcde86a8.chunk.js.map",
+    "runtime-main.js": "/redux-and-saga/static/js/runtime-main.0a82903d.js",
+    "runtime-main.js.map": "/redux-and-saga/static/js/runtime-main.0a82903d.js.map",
+    "static/css/2.9e88941c.chunk.css": "/redux-and-saga/static/css/2.9e88941c.chunk.css",
+    "static/js/2.856ed59c.chunk.js": "/redux-and-saga/static/js/2.856ed59c.chunk.js",
+    "static/js/2.856ed59c.chunk.js.map": "/redux-and-saga/static/js/2.856ed59c.chunk.js.map",
+    "index.html": "/redux-and-saga/index.html",
+    "static/css/2.9e88941c.chunk.css.map": "/redux-and-saga/static/css/2.9e88941c.chunk.css.map",
+    "static/css/main.4ee09147.chunk.css.map": "/redux-and-saga/static/css/main.4ee09147.chunk.css.map",
+    "static/js/2.856ed59c.chunk.js.LICENSE.txt": "/redux-and-saga/static/js/2.856ed59c.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/redux-and-saga/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a82903d.js",
+    "static/css/2.9e88941c.chunk.css",
+    "static/js/2.856ed59c.chunk.js",
+    "static/css/main.4ee09147.chunk.css",
+    "static/js/main.bcde86a8.chunk.js"
+  ]
+}
