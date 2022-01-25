@@ -1,4 +1,4 @@
-# redux and redux-saga based Budget app
+# A personal Budget app made in React
 
 A Budget app for your Expenses and Income.
 
