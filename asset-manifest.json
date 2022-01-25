@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/redux-and-saga/static/css/main.4ee09147.chunk.css",
-    "main.js": "/redux-and-saga/static/js/main.bcde86a8.chunk.js",
-    "main.js.map": "/redux-and-saga/static/js/main.bcde86a8.chunk.js.map",
+    "main.js": "/redux-and-saga/static/js/main.7bcdb41e.chunk.js",
+    "main.js.map": "/redux-and-saga/static/js/main.7bcdb41e.chunk.js.map",
     "runtime-main.js": "/redux-and-saga/static/js/runtime-main.0a82903d.js",
     "runtime-main.js.map": "/redux-and-saga/static/js/runtime-main.0a82903d.js.map",
     "static/css/2.9e88941c.chunk.css": "/redux-and-saga/static/css/2.9e88941c.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.9e88941c.chunk.css",
     "static/js/2.856ed59c.chunk.js",
     "static/css/main.4ee09147.chunk.css",
-    "static/js/main.bcde86a8.chunk.js"
+    "static/js/main.7bcdb41e.chunk.js"
   ]
 }
